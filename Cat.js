@@ -1,5 +1,9 @@
 function test(name) {
   console.log(name);
 }
-module=test();
+
+function Cat(){
+    this.stomach=[];
+}
+module.exports=test;
 
