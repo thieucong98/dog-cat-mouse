@@ -2,8 +2,10 @@ function test(name) {
   console.log(name);
 }
 
-function Cat(){
-    this.stomach=[];
+function Cat() {
+  this.stomach = [];
 }
-module.exports=test;
-
+Cat.prototype.eat = function(mouse) {
+  this.stomach.push(mouse);
+};
+module.exports = test;
