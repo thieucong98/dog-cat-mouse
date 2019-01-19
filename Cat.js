@@ -1,4 +1,5 @@
 function test(name) {
   console.log(name);
 }
-test();
+module=test();
+
