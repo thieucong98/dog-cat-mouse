@@ -1,3 +1,4 @@
+var chalk = require("chalk");
 function test(name) {
   console.log(name);
 }
@@ -9,6 +10,6 @@ Dog.prototype.eat = function(mouse) {
   this.stomach.push(mouse);
 };
 Dog.prototype.sayHi = function() {
-  console.log("xin chaof cong  ÏÏ");
+  console.log("xin chaof cong  ÏÏ"+ chalk.blue("kasdfakjsdf"));
 };
-module.exports = test;
+module.exports = Dog;
